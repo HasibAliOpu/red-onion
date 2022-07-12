@@ -6,7 +6,7 @@ import WebLogo from "../../../images/icons/logo/logo2.png";
 import "./Header.css";
 const Header = () => {
   return (
-    <nav className="">
+    <nav className="sticky top-0 z-50 bg-slate-100">
       <div className="flex justify-between mx-20 py-3">
         <span>
           <img width={"186px"} src={WebLogo} alt="company logo" />
@@ -14,7 +14,7 @@ const Header = () => {
         <span className="flex gap-5 items-center font-medium">
           <FontAwesomeIcon icon={faShoppingCart} />
           <Link to="/login">Login</Link>
-          <Link className="signup-btn px-5 py-2  text-white" to="/signup">
+          <Link className="btn text-white" to="/signup">
             Sign Up
           </Link>
         </span>

@@ -1,0 +1,15 @@
+.banner-title {
+  position: absolute;
+  top: 130px;
+  left: 300px;
+  font-size: 42px;
+  font-weight: 600;
+}
+.input-field {
+  position: absolute;
+  top: 230px;
+  left: 370px;
+}
+.input-field input {
+  width: 450px;
+}

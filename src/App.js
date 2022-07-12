@@ -1,12 +1,13 @@
 import "./App.css";
+import Home from "./Pages/Home/Home/Home";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Header from "./Pages/Shared/Header/Header";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <h1>hello</h1>
+      <Home />
       <Footer />
     </div>
   );
