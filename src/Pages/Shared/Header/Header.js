@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <nav className="sticky top-0 z-50 bg-slate-100">
       <div className="flex justify-between mx-20 py-3">
-        <span>
+        <Link to="/">
           <img width={"186px"} src={WebLogo} alt="company logo" />
-        </span>
+        </Link>
         <span className="flex gap-5 items-center font-medium">
           <FontAwesomeIcon icon={faShoppingCart} />
           <Link to="/login">Login</Link>
